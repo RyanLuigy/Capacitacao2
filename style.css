@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Sora:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    background-color: #111111;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 2rem;
+    font-family: 'Sora';
+}
+h1{
+    font-size: 500%;
+    color:#ed1c23;
+    font-weight: bold;
+     
+    
+}
+section{
+    margin: 4.5rem;
+    flex-direction: column;
+
+    
+
+}
+
+h2{
+    font-size: 250%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    background-color: none;
+    border: solid 0.2rem;
+    border-color:#ed1c23;
+    margin: 0.1rem;
+}
+
+.countdown-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+    
+}
+.countdown-dia{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: #121e32;
+    margin: 1.5rem;
+    border-color: white;
+    border-radius: 1.5rem;
+    border-style: solid;
+    
+}
+.countdown-hora{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color: #121e32;
+    margin: 1.5rem;
+    border-color: white;
+    border-radius: 1.5rem;
+    border-style: solid;
+    
+    
+}
+.countdown-minuto{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color:#121e32;
+    margin: 1.5rem;
+    border-color: white;
+    border-radius: 1.5rem;
+    border-style: solid;
+    
+    
+}
+.countdown-segundo{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    background-color:#121e32;
+    margin: 1.5rem;
+    border-color: white;
+    border-radius: 1.5rem;
+    border-style: solid;
+    
+}
+
+p{
+    color: white;
+    background-color:#121e32;
+}
+span{
+    color: white;
+    background-color:#121e32;
+    margin-bottom: 1rem;
+}
+.text{
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+    
+
+}
+h3{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 200%;
+    margin-top: 7rem;
+}
+input{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 0.3rem;
+}
+
+button{
+    width: 15%;
+    margin-top: 2rem;
+    background-color: #ed1c23;
+    border-radius: 0.5rem;
+    padding: 20px;
+}
+
+form{
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
