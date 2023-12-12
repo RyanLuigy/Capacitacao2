@@ -3,7 +3,7 @@ const horasEl = document.getElementById("horas");
 const minutosEl = document.getElementById("minutos");
 const secondsEl = document.getElementById("segundos");
 
-const limite = "31 Nov 2023";
+const limite = "31 Dec 2023";
 
 function countdown() {
 
@@ -17,7 +17,7 @@ function countdown() {
     const minutes = Math.floor(totalSeconds / 60) % 60;
     const seconds = Math.floor(totalSeconds) % 60;
 
-    diasEl.innerHTML = days;
+    diasEl.innerHTML = formatTime(days);
     horasEl.innerHTML = formatTime(hours);
     minutosEl.innerHTML = formatTime(minutes);
     secondsEl.innerHTML = formatTime(seconds);

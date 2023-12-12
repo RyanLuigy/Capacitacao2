@@ -6,6 +6,7 @@
     <title>Best November - CIMATEC Jr</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
+    <script src="dadosColetados.js"></script>
     <link rel="shortcut icon" href="/assets/icontecjr.png">
     <img src="/assets/logo tecjr.png" alt="">
 </head>
@@ -40,18 +41,37 @@
         <h2>Não perca essa oportunidade por tempo limitado de garantir até 50% de desconto em nossos serviços.
         </h2>
     </div>
-    <h3>Solicite um diagnóstico grátis</h3>
     <div class="batata">
+        <h3>SOLICITE DIAGNÓSTICO GRÁTIS</h3>
         <form id="formulario">
-            <input type="text" id="nome" placeholder="Nome">
+            <input type="text" id="nome" placeholder="Nome Completo">
 
-            <input type="text" id="email" placeholder="E-mail">
+            <input type="text" id="email" placeholder="Seu Melhor E-mail">
 
-            <input type="text" id="telefone" placeholder="Telefone">
+            <input type="text" id="telefone" placeholder="Telefone/Whatsapp">
 
-            <input type="text" id="empresa" placeholder="Empresa">
+            <select id="interesse">
+                <option value=""><strong>Qual a àrea de interesse para seu projeto?</strong></option>
+                <option value="construcao">Construção Civil, Energia e Segurança</option>
+                <option value="gestao">Gestão e Desenvolvimento de Negócios</option>
+                <option value="quimica">Química, Ambiental e Alimentos</option>
+                <option value="tecnologia">Tecnologia e Automação</option>
+                <option value="projetos">Projetos Mecânicos</option>
+                <option value="sustentavel">Cimatec Sustentável</option>
+            </select>
+            <select id="investimento">
+                <option value=""><strong>Qual sua pretensão de investimento para o projeto?</strong></option>
+                <option value="1">De R$ 0 até R$ 1.000</option>
+                <option value="2">De R$ 1.001 até R$ 3.000</option>
+                <option value="3">De R$ 3.001 até R$ 5.000</option>
+                <option value="4">De R$ 5.001 até R$ 10.000</option>
+                <option value="5">Acima de R$ 10.000</option>
+            </select>
 
-            <button type="submit">Enviar</button>
+            <textarea name="descricao" placeholder="Breve descrição do que deseja." id="descricao"></textarea>
+
+
+            <button onclick="Enviar()" type="submit">ENVIAR</button>
         </form>
     </div>
 </section>
